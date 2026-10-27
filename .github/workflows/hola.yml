@@ -1,0 +1,19 @@
+name: Hola Actions
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  saludo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el código
+        uses: actions/checkout@v4
+
+      - name: Decir hola
+        run: echo "Hola desde GitHub Actions, ${{ github.actor }}"
+
+      - name: Ver los archivos del repo
+        run: ls -la
