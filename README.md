@@ -1,2 +1,1 @@
-mi error
-Version B
+# Versión A y B combinadas
