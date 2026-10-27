@@ -1,1 +1,0 @@
-# Versión A y B combinadas
